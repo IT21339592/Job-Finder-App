@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jobadd</string>
+    <string name="company">Company:</string>
+    <string name="enter_job_start_date_here">Enter job start date here</string>
+    <string name="enter_company_name_here">Enter Company Name here</string>
+    <string name="job_name">Job Name:</string>
+    <string name="rs_166000_00">Rs.166000.00</string>
+    <string name="apply_for_this_job">Apply For this job</string>
+    <string name="enter_job_name_here">Enter job name here</string>
+    <string name="enter_job_description_here">Enter job description here</string>
+    <string name="job_description">Job Description:</string>
+    <string name="estimated_budget">Estimated Budget:</string>
+    <string name="start_date">Start Date</string>
+    <string name="jobList">Job List :</string>
+    <string name="addJob">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
