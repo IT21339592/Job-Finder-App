@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Jobadd"
         tools:targetApi="31">
         <activity
+            android:name=".FetchFeedbackActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.TransactionDetailActivity"
             android:exported="false">
             <meta-data
@@ -21,8 +24,6 @@
         <activity
             android:name=".activities.FetchTransactionActivity"
             android:exported="false">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -50,7 +51,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -61,7 +61,28 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-            </activity>
+        </activity>
+        <activity
+            android:name=".activities.FeedbackDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.FetchFeedbackActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.CreateFeedbackActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
     </application>
 
 </manifest>
