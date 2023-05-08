@@ -17,6 +17,7 @@ class FetchJobActivity : AppCompatActivity() {
     private lateinit var btnAddJob : Button
     private lateinit var jobList :ArrayList<Jobs>
     private lateinit var dbRef : DatabaseReference
+    private lateinit var back : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +37,12 @@ class FetchJobActivity : AppCompatActivity() {
         jobList = arrayListOf<Jobs>()
 
         getJobData()
+        back = findViewById(R.id.btnJBack)
+
+        back.setOnClickListener{
+            var intent = Intent(this@FetchJobActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun getJobData(){

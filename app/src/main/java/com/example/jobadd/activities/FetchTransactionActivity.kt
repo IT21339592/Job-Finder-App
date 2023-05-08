@@ -17,7 +17,7 @@ class FetchTransactionActivity : AppCompatActivity() {
     private lateinit var btnAddTransaction: Button
     private lateinit var transactionList: ArrayList<Transactions>
     private lateinit var dbRef: DatabaseReference
-
+    private lateinit var back : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fetch_transaction)
@@ -37,6 +37,12 @@ class FetchTransactionActivity : AppCompatActivity() {
         transactionList = arrayListOf<Transactions>()
 
         getTransactionData()
+        back = findViewById(R.id.btnTBack)
+
+        back.setOnClickListener{
+            var intent = Intent(this@FetchTransactionActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun getTransactionData() {

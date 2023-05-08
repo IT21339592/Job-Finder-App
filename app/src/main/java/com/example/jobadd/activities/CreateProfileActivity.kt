@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import com.example.jobadd.R
-import com.example.jobportal.models.Profile
+import com.example.jobadd.models.Profile
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 

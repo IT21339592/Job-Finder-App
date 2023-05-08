@@ -11,6 +11,16 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/btnTBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/back"
+            android:textColor="@color/white" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -25,7 +35,7 @@
             android:id="@+id/btnAddTransaction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="4dp"
             android:backgroundTint="@color/teal_700"
             android:text="@string/addJob"

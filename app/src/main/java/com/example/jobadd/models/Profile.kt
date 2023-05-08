@@ -1,4 +1,4 @@
-package com.example.jobportal.models
+package com.example.jobadd.models
 
 data class Profile(
     var fullName: String? = null,

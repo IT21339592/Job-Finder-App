@@ -1,12 +1,12 @@
-package com.example.jobportal.adapters
+package com.example.jobadd.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.jobportal.R
-import com.example.jobportal.models.Profile
+import com.example.jobadd.R
+import com.example.jobadd.models.Profile
 
 class ProfileAdapter (private val profileList: ArrayList<Profile>) : RecyclerView.Adapter<ProfileAdapter.ViewHolder>(){
     private lateinit var mListener : OnItemClickListener

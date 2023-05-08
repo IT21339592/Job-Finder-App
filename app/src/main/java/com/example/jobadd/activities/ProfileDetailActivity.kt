@@ -9,7 +9,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import com.example.jobadd.R
-import com.example.jobportal.models.Profile
+import com.example.jobadd.models.Profile
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
