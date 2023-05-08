@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jobadd</string>
+    <string name="app_name">JobPortal</string>
     <string name="company">Company:</string>
     <string name="enter_job_start_date_here">Enter job start date here</string>
     <string name="enter_company_name_here">Enter Company Name here</string>
@@ -15,4 +15,14 @@
     <string name="addJob">Add</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="acc_number">Account Number</string>
+    <string name="branch">Branch</string>
+    <string name="amount">Amount</string>
+    <string name="enter_name">Enter cardholder name here</string>
+    <string name="enter_acc_no">Enter account number here</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="transaction_list">Transaction List</string>
+    <string name="transaction">Transaction Name</string>
+    <string name="enter_transaction">Enter Transaction Name</string>
 </resources>
