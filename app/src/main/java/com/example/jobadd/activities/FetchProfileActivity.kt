@@ -8,8 +8,8 @@ import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.jobadd.R
-import com.example.jobportal.adapters.ProfileAdapter
-import com.example.jobportal.models.Profile
+import com.example.jobadd.adapters.ProfileAdapter
+import com.example.jobadd.models.Profile
 import com.google.firebase.database.*
 
 class FetchProfileActivity : AppCompatActivity() {
